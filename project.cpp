@@ -16,6 +16,10 @@ int main()
         cout << "max: " << a;
     else if (a < b)
         cout << "max: " << b;
+    if (a < b)
+        cout << "min: " << a;
+    else if (a > b)
+        cout << "min: " << b;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
